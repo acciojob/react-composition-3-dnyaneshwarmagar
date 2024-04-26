@@ -7,7 +7,7 @@ const App = () => {
   return (
     <div style={{ display: "flex", flexDirection: "column", marginTop: "30px" }}>
       <h2 className="tooltip">
-        <Tooltip text="Hover over me" children={"This is tooltip!"}>
+        <Tooltip text="Hover over me" children={"This is a tooltip"}>
         </Tooltip>
       </h2>
       <p className="tooltip">
